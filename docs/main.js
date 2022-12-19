@@ -7004,12 +7004,12 @@ var $author$project$Main$viewNoun = function (model) {
 			$author$project$Main$viewNounInput,
 			$author$project$Ideas$toList(model.nouns)));
 };
-var $author$project$Main$viewIdeaMaker = function (model) {
+var $author$project$Main$viewWordCombination = function (model) {
 	return A2(
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('idea-maker-main')
+				$elm$html$Html$Attributes$class('word-combination-main')
 			]),
 		_List_fromArray(
 			[
@@ -7143,7 +7143,7 @@ var $author$project$Main$view = function (model) {
 		_List_fromArray(
 			[
 				$author$project$Main$viewHero(model),
-				$author$project$Main$viewIdeaMaker(model)
+				$author$project$Main$viewWordCombination(model)
 			]));
 };
 var $author$project$Main$main = $elm$browser$Browser$element(
