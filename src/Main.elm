@@ -195,7 +195,7 @@ view : Model -> Html Msg
 view model =
     div []
         [ viewHero model
-        , viewIdeaMaker model
+        , viewWordCombination model
         ]
 
 
@@ -213,12 +213,12 @@ viewHero model =
 
 
 
--- ViewIdeaMaker
+-- ViewWordCombination
 
 
-viewIdeaMaker : Model -> Html Msg
-viewIdeaMaker model =
-    div [ class "idea-maker-main" ]
+viewWordCombination : Model -> Html Msg
+viewWordCombination model =
+    div [ class "word-combination-main" ]
         [ div [ class "description" ]
             [ p [] [ text "名刺と形容詞のすべての組み合わせを列挙します。単語は自分で入力することもできますが、「ランダム」ボタンを押すとランダムに単語が生成されます。"]
             , p [] [ text "物語のアイデアを考えるお供にお使いください。" ]
