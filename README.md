@@ -7,5 +7,5 @@
 ## Build
 
 ```sh
-elm make src/Main.elm --output doc/main.js
+elm make src/Main.elm --output docs/main.js
 ```
